@@ -43,7 +43,7 @@ function setData( data ){
 // +----------------------------------------+
 
 
-	
+
 function fetchData(){
 	var url = serverRootURL+"serverfile.php?get&t=" + Math.random();
 	xmlhttp.onreadystatechange = function() {
@@ -56,11 +56,11 @@ function fetchData(){
 }
 
 function refresh(){
-
-	alert("Test Refresh");
+ alert("Test");
+	
 }
 
-window.setInterval(refresh, 1000/refreshfps);
+window.onload = window.setInterval(refresh, 1000/refreshfps);
 
 
 
