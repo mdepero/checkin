@@ -60,8 +60,7 @@ function refresh(){
 	alert("Test Refresh");
 }
 
-function startSetter(){
-	window.setInterval(refresh, 1000/refreshfps);
-}
+window.setInterval(refresh, 1000/refreshfps);
+
 
 
