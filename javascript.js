@@ -43,7 +43,7 @@ function setData( data ){
 // +----------------------------------------+
 
 
-
+var returnedData = "";
 function fetchData(){
 	var url = serverRootURL+"serverfile.php?get&t=" + Math.random();
 	xmlhttp.onreadystatechange = function() {
@@ -56,7 +56,7 @@ function fetchData(){
 }
 
 function refresh(){
- alert("Test");
+	fetchData();
 	
 }
 

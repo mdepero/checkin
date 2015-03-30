@@ -2,3 +2,16 @@
  *
  * All code by Matt DePero
  */
+
+div{
+	width:100%;
+	overflow-x:scroll;
+}
+
+#checkin{
+	text-align: center;
+}
+
+#roster{
+	text-align: left;
+}
